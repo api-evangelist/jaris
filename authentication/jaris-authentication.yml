@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://jaris.io/developer-overview
+docs: https://docs.jaris.com
+summary:
+  types:
+  - apiKey
+  api_key_in:
+  - header
+  oauth2_flows: []
+schemes:
+- name: apiKey
+  type: apiKey
+  in: header
+  description: |
+    Jaris authenticates API integrations with an API key generated in the
+    Jaris Dashboard. Documented on the Developer Overview; the full reference
+    lives behind a password-protected ReadMe portal at docs.jaris.com, so this
+    profile captures the model without a machine-readable securityScheme.
+  sources:
+  - https://jaris.io/developer-overview
+notes: |
+  No public OpenAPI is available for Jaris (developer docs are gated), so this
+  authentication profile is searched from the public developer overview rather
+  than derived from a spec.
