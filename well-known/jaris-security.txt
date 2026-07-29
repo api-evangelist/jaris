@@ -1,0 +1,4 @@
+Contact: mailto:security@jaris.io
+Expires: 2028-04-23T17:02:00.000Z
+Encryption: https://keys.openpgp.org/vks/v1/by-fingerprint/7F15681566C7D3A444229D57E15AFB31668DE48A
+Preferred-Languages: en

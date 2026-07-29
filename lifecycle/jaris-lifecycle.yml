@@ -1,0 +1,13 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.jaris.com
+status_page: https://status.jaris.com
+status_page_platform: Atlassian Statuspage
+versioning: {}
+deprecation: {}
+sla: {}
+deprecated_operations: []
+notes: |
+  Jaris runs a public Atlassian-hosted status page at status.jaris.com
+  (verified live, 200). No public versioning or deprecation policy was found
+  (developer docs are password-gated), so only the status page is asserted.

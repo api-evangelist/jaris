@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of /.well-known/ across Jaris hosts
+host: https://jaris.io
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: jaris-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: |
+  partner.jaris.com serves the same RFC 9116 security.txt (200).
+  docs.jaris.com (ReadMe.io) and trust.jaris.com (Vanta) return SPA catch-all
+  200s for every path, so their /.well-known/* responses are not real documents.

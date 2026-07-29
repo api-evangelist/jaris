@@ -1,0 +1,17 @@
+# Jaris
+
+> Jaris helps payment and software companies embed and launch a financial product suite with a single integration so they can better serve small and medium-sized businesses.
+
+## Core Pages
+- [Home](https://jaris.io/): Site root and landing page.
+- [Jaris Platform](https://jaris.io/platform/overview): Overview of infrastructure and financial products.
+- [Developer Overview](https://jaris.io/developer-overview): Overview of integration requirements for developers.
+- [About Us](https://jaris.io/about): Jaris background and mission.
+- [News](https://jaris.io/news/): Latest news about Jaris.
+- [Contact Us](https://jaris.io/contact): Contact form for partnerships, customer support, vendor inquiries.
+- [Partnerships](https://jaris.io/partnerships-get-in-touch): Contact form for partnerships and to request demos.
+
+## Contact
+- Website: https://jaris.io
+- Careers: https://job-boards.greenhouse.io/jaris
+- Email: support@jaris.io

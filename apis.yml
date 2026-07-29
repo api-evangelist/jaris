@@ -1,7 +1,32 @@
 aid: jaris
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jaris.png
 name: Jaris
-description: Jaris is a company surfaced as a portfolio company of wing-venture-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Jaris is an embedded-finance infrastructure company that lets payment
+  processors, ISOs, payment service providers, and SaaS platforms embed and
+  launch a suite of financial products through a single integration. Jaris is
+  not a bank; deposits are held and loans are issued through First Internet Bank
+  of Indiana (FDIC member). Its three integrated offerings are Business Loans
+  with same-day funding, Instant Payouts giving merchants early access to earned
+  revenue, and Banking Services (deposit accounts). Supporting capabilities
+  include intelligent merchant onboarding with automated KYB/KYC, managed
+  settlements with real-time control across payment processors, and white-labeled
+  embeddable UI components (Jaris Connect / Jaris UI). Developers integrate via an
+  API-key model generated in the Jaris Dashboard, embedding a brandable UI in a
+  few lines of JavaScript. The public developer reference is hosted on a
+  password-gated ReadMe portal, so no machine-readable OpenAPI is available.
 url: https://raw.githubusercontent.com/api-evangelist/jaris/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +36,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Embedded Finance
+- Fintech
+- Payments
+- Lending
+- Banking as a Service
+- Instant Payouts
+- Merchant Onboarding
+- KYB
+- Settlements
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +57,46 @@ maintainers:
 common:
 - type: Website
   url: https://jaris.io/
+- type: DeveloperPortal
+  url: https://jaris.io/developer-overview
+- type: Documentation
+  url: https://docs.jaris.com
+- type: GettingStarted
+  url: https://jaris.io/developer-overview
+- type: Login
+  url: https://partner.jaris.com/
+- type: Blog
+  url: https://jaris.io/news/
+- type: Support
+  url: https://jaris.io/contact
+- type: Pricing
+  url: https://jaris.io/platform/overview
+- type: TermsOfService
+  url: https://jaris.io/legal/terms
+- type: PrivacyPolicy
+  url: https://jaris.io/legal/privacy
+- type: StatusPage
+  url: https://status.jaris.com
+- type: TrustCenter
+  url: https://trust.jaris.com/
+- type: Authentication
+  url: authentication/jaris-authentication.yml
+- type: Lifecycle
+  url: lifecycle/jaris-lifecycle.yml
+- type: WellKnown
+  url: well-known/jaris-well-known.yml
+- type: SecurityTxt
+  url: well-known/jaris-security.txt
+- type: LLMsTxt
+  url: llms/jaris-llms.txt
+- type: DomainSecurity
+  url: security/jaris-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/jaris-vulnerability-disclosure.yml
+- type: Security
+  url: https://jaris.io/.well-known/security.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
